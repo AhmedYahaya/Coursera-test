@@ -1,51 +1,32 @@
-/* css/style.css */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 2 Solution</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  box-sizing: border-box;
-}
+  <h1>Our Menu</h1>
 
-h1 {
-  font-size: 1.75em;
-  text-align: center;
-  margin: 20px 0;
-}
+  <div class="section">
+    <div class="section-chicken">Chicken</div>
+    >
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+  </div>
 
-.section {
-  box-sizing: border-box;
-  float: left;
-  width: 100%;
-  border: 1px solid black;
-  margin: 10px;
-}
+  <div class="section">
+    <div class="section-beef">Beef</div>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+  </div>
 
-.section-title {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: #ffd700;
-  padding: 5px;
-  border: 1px solid black;
-}
+  <div class="section">
+    <div class="section-sushi">Sushi</div>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+  </div>
 
-@media (min-width: 768px) {
-  .section {
-    width: 48%;
-  }
-
-  .section:nth-child(3) {
-    clear: both;
-    width: 100%;
-  }
-}
-
-@media (min-width: 992px) {
-  .section {
-    width: 31%;
-  }
-}
-
-.section-title {
-  font-size: 125%;
-}
+</body>
+</html>
