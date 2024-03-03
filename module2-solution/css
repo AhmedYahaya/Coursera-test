@@ -1,28 +1,51 @@
+/* css/style.css */
+
 body {
-      margin: 0;
-      font-family: Arial, sans-serif; /* Optional: Set a custom font-family */
-      box-sizing: border-box;
-    }
+  margin: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
 
-    h1 {
-      font-size: 1.75em; /* Optional: 75% larger font size */
-      text-align: center;
-      margin: 20px 0;
-    }
+h1 {
+  font-size: 1.75em;
+  text-align: center;
+  margin: 20px 0;
+}
 
-    .section {
-      box-sizing: border-box;
-      float: left;
-      width: 100%; /* Default for mobile view */
-      border: 1px solid black;
-      margin: 10px;
-    }
+.section {
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  border: 1px solid black;
+  margin: 10px;
+}
 
-    .section-title {
-      position: absolute;
-      top: 0;
-      right: 0;
-      background-color: #ffd700; /* Unique color for title region */
-      padding: 5px;
-      border: 1px solid black;
-    }
+.section-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffd700;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+@media (min-width: 768px) {
+  .section {
+    width: 48%;
+  }
+
+  .section:nth-child(3) {
+    clear: both;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .section {
+    width: 31%;
+  }
+}
+
+.section-title {
+  font-size: 125%;
+}
